@@ -4,4 +4,5 @@ dist
 
 # local env files
 .env
+.env.qa
 .env*.local
