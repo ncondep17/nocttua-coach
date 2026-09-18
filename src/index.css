@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Los tokens también viven como variables CSS: útiles para SVG, gradientes y
+   cualquier cosa que se escape de Tailwind. Fuente: packages/theme/src/tokens.core.js */
+:root {
+  --surface-page: #E7E1D6;
+  --surface-card: #FFFFFF;
+  --surface-night: #16162B;
+  --text-strong: #16162B;
+  --text-body: #4A4459;
+  --text-muted: #8A8299;
+  --accent: #6B5DD3;
+  --highlight: #F0A868;
+  --baby-a: #6B5DD3;
+  --baby-b: #C2703F;
+}
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: var(--surface-page);
+  color: var(--text-body);
+  font-family: 'DM Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-wrap: pretty;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--text-strong); }
+button { font: inherit; }
+::selection { background: #E8DFF6; }

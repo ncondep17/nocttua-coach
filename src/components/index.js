@@ -1,0 +1,28 @@
+// Barrel único: todo lo compartido entre Nocttua App y Nocttua Coach.
+export { Logo } from './brand/Logo';
+export { Eyebrow } from './core/Eyebrow';
+export { Button } from './core/Button';
+export { Card } from './core/Card';
+export { Badge } from './core/Badge';
+export { Chip } from './core/Chip';
+export { StatCard } from './core/StatCard';
+export { ListRow, Avatar } from './core/ListRow';
+export { Toggle } from './forms/Toggle';
+export { Stepper } from './forms/Stepper';
+export { TextArea, TextField } from './forms/TextArea';
+export { SegmentedControl } from './forms/SegmentedControl';
+export { MetricBar } from './data/MetricBar';
+export { BarChart } from './data/BarChart';
+export { KpiRow } from './data/KpiRow';
+export { TimelineEvent } from './data/TimelineEvent';
+export { WindowCountdown } from './data/WindowCountdown';
+export { Sheet } from './feedback/Sheet';
+export { Modal, SidePanel } from './feedback/Modal';
+export { Toast } from './feedback/Toast';
+export { EmptyState } from './feedback/EmptyState';
+export { TabBar } from './navigation/TabBar';
+export { SideNav } from './navigation/SideNav';
+export { PhoneFrame } from './layout/PhoneFrame';
+export { ScreenHeader, PageHeader } from './layout/ScreenHeader';
+export { DesktopShell } from './layout/DesktopShell';
+export { ScreenScroll } from './layout/ScreenScroll';
